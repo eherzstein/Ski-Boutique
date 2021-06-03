@@ -25,7 +25,7 @@ struct ContentView: View {
                 ArticleRow(categoryName: "\(key)", articles: self.categories[key]!)
                     .frame(height:320)
                 
-                    
+                    //test
                 
             }
                 .navigationBarTitle(Text("Ski-Boutique"))
