@@ -24,7 +24,7 @@ struct ContentView: View {
                 key in
                 ArticleRow(categoryName: "\(key)", articles: self.categories[key]!)
                     .frame(height:320)
-                   // .accentColor(.blue)
+                
                     
                 
             }
